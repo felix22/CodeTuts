@@ -1,0 +1,28 @@
+p{
+	
+
+	
+	font-size: 100%;
+	line-height: 1.45;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Oswald', sans-serif, Arial;
+}
+
+@media (max-width: 749px) {
+		.main-body{ 
+		padding: 30px 6.2%;
+
+		margin: 0 25px !important;
+
+	}}
+
+
+	@media (min-width: 750px) {
+		.main-body{ max-width: 750px;
+	padding: 30px 6.2%;
+
+	margin: 0 auto;
+
+	}}
